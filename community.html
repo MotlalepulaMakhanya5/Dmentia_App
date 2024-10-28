@@ -223,7 +223,7 @@
 <body>
     <header>
         <h1>Community Forum</h1>
-        <link rel="stylesheet" href="/public/styles.css">
+        <link rel="stylesheet" href="./styles.css">
         <label>
             <input type="checkbox" id="theme-toggle">
             <span>Toggle Dark Mode</span>
@@ -247,13 +247,13 @@
     </div>
 
     <div class="nav-links">
-        <p><a href="/public/dashboard.html">Back to Dashboard</a></p>
+        <p><a href="./dashboard.html">Back to Dashboard</a></p>
     </div>
 
     <script>
         if (!localStorage.getItem('loggedIn')) {
             alert('Please log in to access the forum.');
-            window.location.href = '/public/login.html';
+            window.location.href = './login.html';
         }
 
         const username = localStorage.getItem('username');

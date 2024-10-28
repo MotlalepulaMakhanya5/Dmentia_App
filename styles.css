@@ -33,7 +33,7 @@ nav a:hover {
 section {
     padding: 40px 20px;
     margin: 20px auto;
-    background-image: url(/public/sec.jfif);
+    background-image: url(sec.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: beige;
