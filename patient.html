@@ -9,7 +9,6 @@
 
 </head>
 <style>
-
     /* Header Styles */
     header {
         background-color: #219ebc;
@@ -128,6 +127,47 @@
     .footer-text {
         color: white;
     }
+
+    @media (max-width: 768px) {
+        header {
+            text-align: center;
+            flex-direction: column;
+        }
+
+        nav {
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .card {
+            padding: 15px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        header {
+            padding: 10px;
+        }
+
+        nav a {
+            padding: 10px 15px;
+            font-size: 0.9rem;
+        }
+
+        .card {
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            padding: 15px 0;
+            font-size: 0.9rem;
+        }
+    }
 </style>
 
 <body>
@@ -162,11 +202,11 @@
         <h2>How to Use the Application</h2>
 
         <div class="card">
-            <h3>1. Predict Dementia (Form A)</h3>
+            <h3>1. Predict Dementia Form</h3>
             <p>This form allows you to predict the risk of dementia based on various health metrics.</p>
             <p><strong>Steps:</strong></p>
             <ul>
-                <li>Click on "Predict Dementia Form A" from the navigation menu.</li>
+                <li>Click on "Predict Dementia Form" from the navigation menu.</li>
                 <li>Fill in all the required health and personal details in the form.</li>
                 <li>Click on the "Submit" button to get your dementia risk prediction.</li>
             </ul>

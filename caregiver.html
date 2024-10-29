@@ -108,6 +108,47 @@
         .footer-text {
             color: white;
         }
+
+        @media (max-width: 768px) {
+            header {
+                text-align: center;
+                flex-direction: column;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            .card {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 10px;
+            }
+
+            nav a {
+                padding: 10px 15px;
+                font-size: 0.9rem;
+            }
+
+            .card {
+                padding: 10px;
+                margin-bottom: 15px;
+            }
+
+            footer {
+                padding: 15px 0;
+                font-size: 0.9rem;
+            }
+        }
     </style>
 </head>
 
@@ -134,7 +175,8 @@
 
         <div class="step">
             <h3>Step 1: Prediction Form</h3>
-            <p>Start predicting dementia risk on the prediction form. Fill in the form and click on the submit button then wait for some seconds to get your prediction results.
+            <p>Start predicting dementia risk on the prediction form. Fill in the form and click on the submit button
+                then wait for some seconds to get your prediction results.
             </p>
         </div>
 
