@@ -129,7 +129,7 @@
                 height: 30px;
                 background-color: #0b87a3;
                 cursor: pointer;
-                
+
             }
 
             .bar {
@@ -330,6 +330,47 @@
         .footer-text {
             color: white;
         }
+
+        @media (max-width: 768px) {
+            header {
+                text-align: center;
+                flex-direction: column;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            section {
+                padding: 20px;
+            }
+
+            .card {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 10px;
+            }
+
+            nav a {
+                padding: 10px 15px;
+                font-size: 0.9rem;
+            }
+
+            .card {
+                padding: 10px;
+                margin-bottom: 15px;
+            }
+
+            footer {
+                padding: 15px 0;
+                font-size: 0.9rem;
+            }
+        }
     </style>
     <section id="introduction">
 
@@ -441,15 +482,16 @@
         </div>
         <h2>Introduction</h2>
         <p>Welcome to the Dementia Prediction and Recommendation Application, your comprehensive solution for early
-            detection and management of cognitive decline. In today’s fast-paced world, detecting dementia early is critical for
+            detection and management of cognitive decline. In today’s fast-paced world, detecting dementia early is
+            critical for
             enabling timely intervention and care. Our innovative platform harnesses the power of advanced algorithms
             and machine learning to analyze data and identify early signs of dementia. This proactive approach can make
             a significant difference in slowing disease progression, offering peace of mind to individuals and families
             navigating the challenges of cognitive health. By integrating personalized assessments, we deliver insights
             tailored to each user’s unique profile, allowing for more informed decision-making and better planning for
             the future. Our application is not only a powerful tool for individuals but also serves as a critical
-            resource for caregivers and healthcare providers. Understanding the progression of dementia is key to providing effective
-            care, and our platform equips caregivers with the information they need to support their loved ones more
+            resource for caregivers and healthcare providers. Understanding the progression of dementia is key to
+            providing effective care, and our platform equips caregivers with the information they need to support their loved ones more
             effectively. With an intuitive interface and secure data handling, we ensure that navigating through the
             results and recommendations is both user-friendly and safe. By combining technology with compassion, the
             Dementia Prediction and Recommendation Application empowers users to take control of their cognitive health,
@@ -510,8 +552,8 @@
             <h2>About Cognicare</h2>
             <p>Cognicare is an innovative solution designed to help individuals and caregivers monitor and manage
                 cognitive health. By using predictive tools and advanced algorithms, Cognicare offers personalized
-                insights that assist is detecting early signs of cognitive decline, helping you take proactive steps toward your well-being.
-                With Cognicare, you can track cognitive performance through simple and interactive assessments,
+                insights that assist is detecting early signs of cognitive decline, helping you take proactive steps
+                toward your well-being. With Cognicare, you can track cognitive performance through simple and interactive assessments,
                 providing timely intervention strategies. Our mission is to make cognitive health management accessible
                 and effective for everyone.</p>
         </div>
@@ -575,7 +617,6 @@
     <!-- Footer Section -->
     <footer>
         <p class="footer-text">&copy; 2024 Parallel Universe Group. All Rights Reserved.</p>
-
     </footer>
 </body>
 
